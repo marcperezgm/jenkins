@@ -1,20 +1,9 @@
-<?php
-// CalculatorTest.php
-require 'Calculator.php';
 
-use PHPUnit\Framework\TestCase;
-
-class CalculatorTest extends TestCase {
-    public function testSum() {
-        $calculator = new Calculator();
-        $result = $calculator->sum(1, 2);
-        $this->assertEquals(3, $result);
-    }
-
-    public function testSubtract() {
-        $calculator = new Calculator();
-        $result = $calculator->subtract(5, 3);
-        $this->assertEquals(2, $result);
-    }
+/** 
+ * The HelloWorldApp class implements an application that simply prints "Hello World" to standard output.
+ */
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
 }
-?>
